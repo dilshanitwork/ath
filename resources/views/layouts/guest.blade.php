@@ -50,7 +50,7 @@
             <div class="auth-card">
                 <div class="mb-4 text-center">
                     <a href="{{ url('home') }}" class="text-decoration-none">
-                        <img src="{{ asset('img/logo.png') }}" alt="{{ config('app.name', 'Laravel') }} Logo"
+                        <img src="{{ asset('img/Tire_logo.png') }}" alt="{{ config('app.name', 'Laravel') }} Logo"
                             class="img-fluid" style="max-height: 80px;">
                         <h1 class="h1 fw-bold text-dark mt-2">{{ config('app.name', 'Laravel') }}</h1>
                     </a>
