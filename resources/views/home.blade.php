@@ -12,7 +12,7 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
         <link rel="preconnect" href="https://fonts.bunny.net">
         <link href="https://fonts.bunny.net/css?family=figtree:400,500,600&display=swap" rel="stylesheet" />
-        <link rel="icon" type="image/png" sizes="32x32" href="{{ asset('img/favicon.png') }}">
+        <link rel="icon" type="image/png" sizes="32x32" href="{{ asset('img/Tire_logo.png') }}">
 
         <style>
             :root {
@@ -251,7 +251,7 @@
         ══════════════════════════════════════════════ --}}
         <nav class="top-navbar d-flex align-items-center justify-content-between">
             <a href="{{ url('/') }}" class="d-flex align-items-center text-decoration-none gap-2">
-                <img src="{{ asset('img/favicon.png') }}" alt="Logo" height="40">
+                <img src="{{ asset('img/Tire_logo.png') }}" alt="Logo" height="40">
                 <span class="fw-bold fs-5 brand-name">{{ config('app.name', 'Laravel') }}</span>
             </a>
             <div class="d-flex align-items-center gap-2">

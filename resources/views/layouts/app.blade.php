@@ -15,7 +15,7 @@
         <link href="https://fonts.bunny.net/css?family=figtree:400,500,600&display=swap" rel="stylesheet" />
 
         <link href="{{ asset('css/dashboard.css') }}" rel="stylesheet">
-        <link rel="icon" type="image/png" sizes="32x32" href="{{ asset('img/favicon.png') }}">
+        <link rel="icon" type="image/png" sizes="32x32" href="{{ asset('img/Tire_logo.png') }}">
 
         @stack('styles')
     </head>
@@ -31,7 +31,7 @@
                 {{-- Logo --}}
                 <div class="sidebar-heading d-flex justify-content-center align-items-center py-3">
                     <a href="{{ route('home') }}">
-                        <img src="{{ asset('img/favicon.png') }}" alt="{{ config('app.name', 'Laravel') }} Logo"
+                        <img src="{{ asset('img/Tire_logo.png') }}" alt="{{ config('app.name', 'Laravel') }} Logo"
                             class="img-fluid" style="max-height: 56px;">
                     </a>
                 </div>
