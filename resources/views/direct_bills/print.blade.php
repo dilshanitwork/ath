@@ -167,7 +167,7 @@
 
     <body>
         <div class="bill-container">
-            <!--<img src="{{ asset('img/logo.png') }}" alt="Watermark" class="watermark">-->
+            <!--<img src="{{ asset('img/Tire_logo.png') }}" alt="Watermark" class="watermark">-->
             <div class="bill-header">
                 <!-- Drastically reduced font size for header to save space -->
                 <h1 style="font-size: 24px; margin: 0;">Amarasinghe Tyre House</h1>

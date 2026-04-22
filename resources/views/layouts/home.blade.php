@@ -54,10 +54,10 @@
                 <section class="hero-section">
                     <div class="container mt-5">
                         <h1 class="display-1">
-                            <img src="{{ asset('img/logo.png') }}" alt="KE" width="100">
+                            <img src="{{ asset('img/Tire_logo.png') }}" alt="KE" width="100">
                             {{ config('app.name', 'Laravel') }}
                         </h1>
-                        <img src="{{ asset('img/logo.png') }}" alt="Web C Lanka" style="max-width: 300px;">
+                        <img src="{{ asset('img/Tire_logo.png') }}" alt="Web C Lanka" style="max-width: 300px;">
                         <hr class="my-4">
                         <p>Please log in or register to access the full features.</p>
 
