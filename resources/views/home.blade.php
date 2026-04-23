@@ -312,8 +312,9 @@
             <section class="hero-section text-center">
                 <div class="container">
                     <div class="hero-badge"><i class="bi bi-stars me-1"></i> Business Management System</div>
-                    <img src="{{ asset('img/logo.png') }}" alt="Logo" height="90" class="mb-3">
-                    <h1 class="display-5 fw-bold mb-3">{{ config('app.name', 'Laravel') }}</h1>
+                    <img src="{{ asset('img/Tire_logo.png') }}" alt="Logo" height="90" class="mb-3">
+                    <h1 class="display-5 fw-bold mb-3">Tire Management System</h1>
+                    {{-- <h1 class="display-5 fw-bold mb-3">{{ config('app.name', 'Laravel') }}</h1> --}}
                     <p class="lead mb-4" style="opacity:0.75;">
                         Manage bills, stock, customers, and reports — all in one place.
                     </p>

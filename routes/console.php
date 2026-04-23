@@ -34,7 +34,7 @@ Artisan::command('sms:send-daily', function () {
             continue;
         }
 
-        $message = 'Hi ' . $bill->name . '!, Reminder: Payment for Bill ' . $bill->bill_number . ' is due on ' . $bill->next_bill . '. Please pay on time to avoid late fees. - Amarasinghe Tyre Houses';
+        $message = 'Hi ' . $bill->name . '!, Reminder: Payment for Bill ' . $bill->bill_number . ' is due on ' . $bill->next_bill . '. Please pay on time to avoid late fees. - Tyre Management System';
 
         $smsService = new SmsService();
 

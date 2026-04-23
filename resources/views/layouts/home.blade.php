@@ -55,7 +55,8 @@
                     <div class="container mt-5">
                         <h1 class="display-1">
                             <img src="{{ asset('img/Tire_logo.png') }}" alt="KE" width="100">
-                            {{ config('app.name', 'Laravel') }}
+                            {{-- {{ config('app.name', 'Laravel') }} --}}
+                            Tire Management System
                         </h1>
                         <img src="{{ asset('img/Tire_logo.png') }}" alt="Web C Lanka" style="max-width: 300px;">
                         <hr class="my-4">

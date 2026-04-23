@@ -192,7 +192,7 @@ class BillController extends Controller
 
         // SMS notification
         $mobile = $bill->customer->mobile;
-        $message = 'Hi ' . $bill->customer->name . '! Bill No: ' . $bill->bill_number . '. Total: Rs. ' . number_format($bill->total_price, 2) . '. Advance paid: Rs. ' . number_format($bill->advance_payment, 2) . '. Next payment date: ' . $bill->next_bill . '. Thanks! - Amarasinghe Tyre Houses';
+        $message = 'Hi ' . $bill->customer->name . '! Bill No: ' . $bill->bill_number . '. Total: Rs. ' . number_format($bill->total_price, 2) . '. Advance paid: Rs. ' . number_format($bill->advance_payment, 2) . '. Next payment date: ' . $bill->next_bill . '. Thanks! - Tyre Management System';
         $fname = 'Chamara';
         $lname = 'Lanka';
         // $smsResponse = app(\App\Http\Controllers\SmsController::class)->sendSmsToMobile($mobile, $message, $fname, $lname);
@@ -523,7 +523,7 @@ class BillController extends Controller
         $bill->save();
 
         $mobile = $bill->customer->mobile;
-        $message = "Hi {$bill->customer->name}, Thank you! Rs." . number_format($request->payment, 2) . " received for Bill {$bill->bill_number}. Balance: Rs." . number_format($bill->balance, 2) . '. - Amarasinghe Tyre Houses';
+        $message = "Hi {$bill->customer->name}, Thank you! Rs." . number_format($request->payment, 2) . " received for Bill {$bill->bill_number}. Balance: Rs." . number_format($bill->balance, 2) . '. - Tyre Management System';
         $fname = 'Chamara';
         $lname = 'Lanka';
         $smsResponse = app(\App\Http\Controllers\SmsController::class)->sendSmsToMobile($mobile, $message, $fname, $lname);

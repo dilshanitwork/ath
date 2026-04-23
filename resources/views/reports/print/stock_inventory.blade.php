@@ -50,7 +50,7 @@
 
     <body>
         <div class="header">
-            <h2>Amarasinghe Tyre House</h2>
+            <h2>Tyre Management System</h2>
             <h3>Stock Inventory Report</h3>
             <p>Generated: {{ now()->format('Y-m-d H:i') }}</p>
         </div>

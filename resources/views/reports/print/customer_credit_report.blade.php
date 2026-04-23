@@ -206,7 +206,7 @@
 
         {{-- ── Page Header ── --}}
         <div class="page-header">
-            <h2>Amarasinghe Tyre House</h2>
+            <h2>Tyre Management System</h2>
             <h3>Customer Bill Report</h3>
             <p>Generated: {{ $reportDate->format('Y-m-d H:i') }}</p>
         </div>
@@ -354,7 +354,7 @@
 
         {{-- ── Page Footer ── --}}
         <div class="page-footer">
-            Amarasinghe Tyre House &mdash; Customer Bill Report &mdash;
+            Tyre Management System &mdash; Customer Bill Report &mdash;
             &mdash; Total {{ $bills->count() }} record(s)
         </div>
 

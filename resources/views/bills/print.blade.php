@@ -130,7 +130,7 @@
             <!-- Bill Header -->
             <div class="bill-header">
                 <h3>Invoice</h3>
-                <h1>Amarasinghe Tyre House</h1>
+                <h1>Tyre Management System</h1>
                 <p>Contact: 0771764746 / 0778781096</p>
                 <p><strong>Bill Number:</strong> {{ $bill->bill_number }}</p>
             </div>

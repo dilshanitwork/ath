@@ -170,7 +170,7 @@
             <!--<img src="{{ asset('img/Tire_logo.png') }}" alt="Watermark" class="watermark">-->
             <div class="bill-header">
                 <!-- Drastically reduced font size for header to save space -->
-                <h1 style="font-size: 24px; margin: 0;">Amarasinghe Tyre House</h1>
+                <h1 style="font-size: 24px; margin: 0;">Tyre House</h1>
                 <p style="text-align: center; font-size: 11px;">476, Kaluthara Rd, Panthiya, Mathugama. Contact:
                     0342248040</p>
             </div>

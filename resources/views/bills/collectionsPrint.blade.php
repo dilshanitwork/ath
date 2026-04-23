@@ -89,7 +89,7 @@
     <body>
         <div class="container">
             <div class="header">
-                <h1>Amarasinghe Tyre House</h1>
+                <h1>Tyre Management System</h1>
                 <p>Contact: 0771764746 / 0778781096</p>
             </div>
 

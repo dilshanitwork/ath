@@ -194,7 +194,7 @@
     <body>
         <div class="bill-container">
             <div class="header">
-                <h1>Amarasinghe Tyre House</h1>
+                <h1>Tyre Management System</h1>
                 <p>476, Kaluthara Rd, Panthiya, Mathugama. Contact: 0342248040</p>
             </div>
 
